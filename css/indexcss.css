@@ -1,0 +1,90 @@
+#wrapper {
+	background-image: url(../images/backgroundindex.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 960px;
+	background-size: 1440px 960px;
+	margin: 0 auto;
+}
+
+nav {
+	position: fixed;
+	float: left;
+	height: 960px;
+	width: 125px;
+	background-color: rgba(150, 177, 207, .7);
+}
+
+nav ul li {
+	list-style-type: none;
+	line-height: 140px;
+	font-family: "League Gothic", Georgia, serif;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+}
+
+h1 {
+	font-size: 550%;
+	font-family: "League Gothic", Georgia, serif;
+	font-style: italic;
+	color: blue;
+	position: absolute;
+	top: 50px;
+	left: 550px;
+	letter-spacing: 50px;
+}
+
+.buttonnav {
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 10px;
+	color: rgba(0, 0, 255, .7);
+	transition: all 0.5s 0.2s;
+}
+
+.buttonnav:hover {
+	color: rgba(0, 0, 255, 1);
+	font-size: 35px;
+	transition: all 0.5s;
+}
+
+.icon-social-facebook {
+	font-size: 50px;
+	color: black;
+	text-decoration: none;
+	color: rgba(59, 89, 152, .7);
+	transition: all 0.5s 0.2s;
+}
+
+.icon-social-facebook:hover {
+	color: rgba(59, 89, 152, 1);
+	font-size: 60px;
+	transition: all 0.5s;
+}
+
+.icon-social-twitter {
+	font-size: 50px;
+	color: black;
+	text-decoration: none;
+	color: rgba(0, 172, 237, .7);
+	transition: all 0.5s 0.2s;
+}
+
+.icon-social-twitter:hover {
+	color: rgba(0, 172, 237, 1);
+	font-size: 60px;
+	transition: all 0.5s;
+}
+
+}

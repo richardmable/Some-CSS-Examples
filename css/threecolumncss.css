@@ -1,0 +1,125 @@
+#wrapper {
+	background-image: url(../images/backgroundindex.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 960px;
+	background-size: 1440px 960px;
+	margin: 0 auto;
+}
+
+nav {
+	position: fixed;
+	float: left;
+	height: 960px;
+	width: 125px;
+	background-color: rgba(150, 177, 207, .7);
+}
+
+nav ul li {
+	list-style-type: none;
+	line-height: 140px;
+	font-family: "League Gothic", Georgia, serif;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+}
+
+.maincenter {
+	width: 600px;
+	margin: 0 auto;
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 500px;
+	font-family: "League Gothic", Georgia, serif;
+	color: blue;
+	text-align: center;
+	line-height: 30px;
+}
+
+.maincenter h1 {
+	font-size: 550%;
+	letter-spacing: 25px;
+}
+
+.maincenter h2 {
+	font-size: 200%
+}
+
+.mainright {
+	width: 300px;
+	display: inline-block;
+	background-color: rgba(0, 0, 255, .7);
+	height: 500px;
+	float: right;
+	line-height: 35px;
+	border-radius: 15px;
+	padding: 50px 5px 50px 5px;
+	margin: 50px 0px 50px 0px;
+}
+
+.mainright p {
+	font-family: "League Gothic", Georgia, serif;
+	font-size: 20px;
+	color: white;
+}
+
+/*would like to make a border around iframe, make it look neater
+iframe {
+	border: solid 10px white;
+	border-radius: 12px;
+}*/
+
+.buttonnav {
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 10px;
+	color: rgba(0, 0, 255, .7);
+	transition: all 0.5s 0.2s;
+}
+
+.buttonnav:hover {
+	color: rgba(0, 0, 255, 1);
+	font-size: 35px;
+	transition: all 0.5s;
+}
+
+.icon-social-facebook {
+	font-size: 50px;
+	color: black;
+	text-decoration: none;
+	color: rgba(59, 89, 152, .7);
+	transition: all 0.5s 0.2s;
+}
+
+.icon-social-facebook:hover {
+	color: rgba(59, 89, 152, 1);
+	font-size: 60px;
+	transition: all 0.5s;
+}
+
+.icon-social-twitter {
+	font-size: 50px;
+	color: black;
+	text-decoration: none;
+	color: rgba(0, 172, 237, .7);
+	transition: all 0.5s 0.2s;
+}
+
+.icon-social-twitter:hover {
+	color: rgba(0, 172, 237, 1);
+	font-size: 60px;
+	transition: all 0.5s;
+}
+
+}
