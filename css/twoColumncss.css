@@ -6,6 +6,10 @@ body {
 	margin: 0 auto;
 }
 
+* {
+	margin: 0px;
+}
+
 nav {
 	position: absolute;
 	top: 0px;
@@ -25,68 +29,15 @@ nav ul li a {
 	text-decoration: none;
 }
 
-ul {
-	margin: 0;
-}
-
-.maincenter {
-	width: 600px;
-	margin: 0 auto;
-	display: inline-block;
-	position: absolute;
-	left: 400px;
+h1 {
+	font-size: 250%;
 	font-family: "League Gothic", Georgia, serif;
+	font-style: italic;
 	color: blue;
-	text-align: center;
-	line-height: 30px;
-}
-
-.maincenter h1 {
-	font-size: 550%;
-	letter-spacing: 25px;
-}
-
-.maincenter h2 {
-	font-size: 200%
-}
-
-.mainleft {
-	margin: 0 auto;
-	width: 1000px;
-	height: 300px;
 	position: absolute;
-	top: 700px;
+	top: 50px;
 	left: 150px;
-	background-color: rgba(0, 0, 255, .7);
-	line-height: 35px;
-	border-radius: 15px;
-	padding: 10px;
-	margin: 10px;
-}
-
-.mainleft p {
-	font-family: "League Gothic", Georgia, serif;
-	font-size: 20px;
-	color: white;
-}
-
-
-.mainright {
-	width: 300px;
-	display: inline-block;
-	background-color: rgba(0, 0, 255, .7);
-	height: 500px;
-	float: right;
-	line-height: 35px;
-	border-radius: 15px;
-	padding: 50px 5px 50px 5px;
-	margin: 50px 50px 50px 0px;
-}
-
-.mainright p {
-	font-family: "League Gothic", Georgia, serif;
-	font-size: 20px;
-	color: white;
+	letter-spacing: 5px;
 }
 
 .buttonnav {
@@ -129,4 +80,40 @@ ul {
 	color: rgba(0, 172, 237, 1);
 	font-size: 60px;
 	transition: all 0.5s;
+}
+
+.maincontent {
+	margin: 200px auto;
+	width: 900px;
+}
+
+.maincontent p {
+	font-family: "League Gothic", Georgia, serif;
+	font-size: 20px;
+	color: white;
+}
+
+.mainright {
+	border-radius: 15px;
+	background-color: rgba(0, 0, 255, .7);
+	float: right;
+	height: 500px;
+	width: 400px;
+	margin: 15px;
+	padding: 10px;
+	line-height: 35px;
+	border-radius: 15px;
+
+}
+
+.mainleft {
+	border-radius: 15px;
+	background-color: rgba(0, 0, 255, .7);
+	float: left;
+	height: 500px;
+	width: 400px;
+	margin: 15px;
+	padding: 10px;
+	line-height: 35px;
+	border-radius: 15px;
 }

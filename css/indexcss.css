@@ -1,33 +1,28 @@
-#wrapper {
+body {
 	background-image: url(../images/backgroundindex.jpg);
 	background-attachment: fixed;
-	background-repeat: no-repeat;
-	width: 1440px;
-	height: 960px;
-	background-size: 1440px 960px;
+	width: 100%;
+	background-size: 100%;
 	margin: 0 auto;
 }
 
 nav {
-	position: fixed;
-	float: left;
-	height: 960px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 600px;
 	width: 125px;
 	background-color: rgba(150, 177, 207, .7);
 }
 
 nav ul li {
 	list-style-type: none;
-	line-height: 140px;
+	line-height: 100px;
 	font-family: "League Gothic", Georgia, serif;
 }
 
 nav ul li a {
 	text-decoration: none;
-}
-
-body {
-	margin: 0;
 }
 
 ul {
@@ -85,6 +80,4 @@ h1 {
 	color: rgba(0, 172, 237, 1);
 	font-size: 60px;
 	transition: all 0.5s;
-}
-
 }
