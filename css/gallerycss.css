@@ -1,24 +1,41 @@
 body {
-	background-image: url(../images/backgroundindex.jpg);
-	background-attachment: fixed;
+	font-family: "League Gothic", Georgia, serif;
+	margin: 0;
+}
+
+.bg {
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
-	background-size: 100%;
-	margin: 0 auto;
+	height: 100%;
+	z-index: -10;
+}
+
+.bg img {
+	position: absolute;
+	top: 0; 
+	left: 50%;
+	transform: translateX(-50%);
+	min-width: 100%;
+	min-height: 100%;
+	max-height: 130%;
 }
 
 nav {
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 600px;
-	width: 125px;
+	height: 42vw;
+	width: 10vw;
 	background-color: rgba(150, 177, 207, .7);
+	border-bottom-right-radius: 12px;
 }
 
 nav ul li {
+	padding: 0;
 	list-style-type: none;
-	line-height: 100px;
-	font-family: "League Gothic", Georgia, serif;
+	line-height: 7vw;
 }
 
 nav ul li a {
@@ -26,23 +43,28 @@ nav ul li a {
 }
 
 ul {
-	margin: 0;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
 }
 
 h1 {
-	margin-top: 0;
-	font-size: 550%;
-	font-family: "League Gothic", Georgia, serif;
+	font-size: 5.5vw;
 	color: blue;
-	position: absolute;
-	top: 5px;
-	left: 525px;
-	letter-spacing: 30px;
+	position: relative;
+	display: inline-block;
+	top: 2vw;
+	left: 40vw;
+	letter-spacing: 3vw;
+	margin: 0;
 }
 
 .gallery {
 	display: inline-block;
-	margin: 125px 0px 0px 125px;
+	width: 90vw;
+	position: relative;
+	top: 5vw;
+	left: 10vw;
 }
 
 .gallery img {
@@ -54,7 +76,7 @@ h1 {
 
 .buttonnav {
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 2.5vw;
 	padding-left: 10px;
 	color: rgba(0, 0, 255, .7);
 	transition: all 0.5s 0.2s;
@@ -67,7 +89,7 @@ h1 {
 }
 
 .icon-social-facebook {
-	font-size: 50px;
+	font-size: 4.7vw;
 	color: black;
 	text-decoration: none;
 	color: rgba(59, 89, 152, .7);
@@ -81,7 +103,7 @@ h1 {
 }
 
 .icon-social-twitter {
-	font-size: 50px;
+	font-size: 4.7vw;
 	color: black;
 	text-decoration: none;
 	color: rgba(0, 172, 237, .7);
